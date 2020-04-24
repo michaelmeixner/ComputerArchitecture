@@ -1,0 +1,4 @@
+When developing an application:
+    1. Make it work
+    2. Make it work correctly
+    3. Make it fast (which should be done by a professional if done at all, bc increasing speed can decrease stability, functionality, etc.)

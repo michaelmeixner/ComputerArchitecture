@@ -1,0 +1,10 @@
+bitwise operators:
+    &
+    |
+    ^
+    ~
+
+whenever we use bitwise operators, we create a mask
+    a mask is a way to check the values of a binary number
+    it's like a "blank" or all-zeros binary number that you put ones into where you want to test the values with a bitwise operator
+    

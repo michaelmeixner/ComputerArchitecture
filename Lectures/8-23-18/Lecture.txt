@@ -1,0 +1,17 @@
+Basics of C:
+    Old language, so very stable
+    
+    #include does the same as import in java, but it makes the preprocessor copy the whole package into your source code.
+
+    when compiling a .c file:
+    >compile
+        >compiler starts preprocessor
+            >preprocessor runs through code and makes it a .i file
+    .i file gets run through by compiler<
+        >a .o (object) file comes out of compiler (an object file is a set of machine instructions but it isn't an executable file) (like having all the parts of somethings but not having the usable thing itself)
+    the linker takes the object files and links them together to produce an executable<
+
+    when writing in C, you have to write two files for every file you want:
+        a .c file
+        a .h (header) file - which is a text file of your source code that doesn't get compiled - used for sharing along with the .o file
+            kind of like a table of contents for the compiler; compiler uses .h, linker uses .o

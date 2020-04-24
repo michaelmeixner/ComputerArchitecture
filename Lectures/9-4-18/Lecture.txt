@@ -1,0 +1,21 @@
+editor stuff:
+    c uses a single-pass compiler, so methods (functions) can't be called unless they're seen above the function that's calling them (i.e. function prototypes).
+
+    .h files are header files and you can put the prototypes of functions in there because the preprocessor reads that file first.
+
+    #include "fileName.h" in your fileName.c file
+
+    preprocessor is a scriptable text editor
+
+pointers:
+    "heap":
+        designated/reserved memory for your program during compile-time
+    dynamic memory allocation:
+        within heap, memory that changes based on what parts of the program need which amounts of memory
+    pointer/address/reference operator:
+        allocated chunk of memory for parts of program
+        we assign a pointer variable to the chunk of storage; 
+        example:
+            int *ptr; (datatype "int" necessary)
+            ptr = 4;
+        

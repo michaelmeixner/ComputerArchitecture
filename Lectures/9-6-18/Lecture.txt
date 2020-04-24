@@ -1,0 +1,23 @@
+malloc and calloc: functions that allow you to specify how much RAM you  want to use
+    malloc:
+        void * malloc(amount_of_RAM);
+
+        char * array = NULL;
+        array = (char*) malloc(100); //gives you 100 bytes of RAM because the size of char is 1
+        alsoArray = (int *) malloc(100 * sizeOf(int)); //multiplies 100 by size of int to give you that many bytes
+    
+        malloc gives you "dirty" RAM
+
+    calloc:
+        clears the RAM before it gives it back to you so it's all zeros
+
+Leak:
+    calloc(num elements, size of element);
+
+    int *alsoArray;
+    char * array = NULL;
+
+    array = (char *) malloc(100);
+
+    free(array); //free funtion clears something from RAM; this particular example is tricky because array is a pointer
+    array = NULL;

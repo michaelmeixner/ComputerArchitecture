@@ -1,0 +1,27 @@
+assembly:
+    a very simple language; there's not much it actually does
+
+computers don't understand natural language because they don't understand context
+
+op-code:
+    op = "operate"
+    machine code
+    binary code
+    does simple tasks like adding, subtracting, etc.
+    its goal is just to make programming easier. Assembly has the same goal
+
+register:
+    probably most common word in all of assembly
+    the one thing that's missing from register is its definition
+    definition: a small chunk of RAM (like a variable) that is on the CPU directly
+        why don't we put all our RAM  on the CPU? it would be much, much faster at the same clock speeds
+            (RAM on the CPU  is called the cache)
+            because RAM runs at a much slower clock speed than the CPU
+    a register is a small chunk of RAM on the CPU that runs at the same speed as the CPU
+
+page 180 of textbook gives a table of the 16 available registers and their respsective available byte sizes
+having different bit sizes of registers allows for backward-compatibilities of the CPU (i.e. running 32 bit programs on a 64 bit machine)
+
+caller and callee:
+    when you want to make a call to a function, it's the programmers job to save the callee registers on the stack and restore them before the return
+    

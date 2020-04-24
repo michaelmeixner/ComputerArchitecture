@@ -1,0 +1,20 @@
+Steps for an execute process:
+    1. Fetch
+        - from program pointer
+    2. Decode
+    3. Execute
+        - ALU
+            - (ALU also sets flags)
+    4. Save in memory 
+        - register
+    5. Write back
+
+Clock cycle:
+    - how fast the clock oscillates
+    - can be shown by a square wave
+    - a single clock cycle completes an execute process
+    - the "clock" is a piece of quarts which governs the speed of oscillations in the CPU (CPU "refresh" rate)
+        - a register can be read from or written to
+        - the clock cycle specifies which one is happening
+        - registers can only be written to on the up-tick of the clock cycle (first vertical line of square wave, read for horizontal, vertical, horizontal lines in that order)
+

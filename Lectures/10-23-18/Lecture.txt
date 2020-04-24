@@ -1,0 +1,8 @@
+the name of an array is not a pointer because you can't change its contents
+
+if(*forPtr == input)
+else if(*(forPtr-1) == )
+
+preprocessor output and how to get it:
+    removes excess whitespace and comments
+    

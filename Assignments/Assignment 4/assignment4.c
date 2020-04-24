@@ -1,4 +1,5 @@
 // Michael Meixner, assignment 4
+// takes in a given C program and unrolls the for-loops in it by a given factor
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
